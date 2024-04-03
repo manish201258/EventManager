@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="form-1-2" method="post" action="process.php" >
+        <div class="form-container">
+            <div class="form-heading">
+                <h2>Event Registration Form</h2>
+                <p></p>
+            </div>
+            <hr>
+            <div class="form-info-heading">
+                <h3>Attendee Information</h3>
+                <p>Please fill name and contact information of attendees.</p>
+            </div>
+            <hr>
+            <div class="form-details">
+                <div class="name">
+                    <h3>Your Name</h3>
+                    <div class="form-name-input">
+                        <div class="first-name">
+                            <input type="text" name="f-name">
+                            <label for="">First Name</label>
+                        </div>
+                        <div class="last-name">
+                            <input type="text" name="l-name">
+                            <label for="">Last Name</label>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="gender">
+                       <h3>Gender:</h3> 
+                       <div class="gender-input">
+                            <div class="gender-input-male">
+                                <label for="">Male</label>
+                                <input type="radio" name="gender" value="Male">
+                            </div>
+                            <div class="gender-input-female">
+
+                                <label for="">Female</label>
+                                <input type="radio" name="gender" value="Female">
+                            </div>
+                          
+                       </div>
+                    </div>
+                    <div class="registration-num">
+                        <h3>Regestration No.</h3>
+                        <input type="text" placeholder="2022PUFCEBCAX12261" name="reg-no">
+                    </div>
+                    <div class="form-email-contact-input">
+                        <div class="emailaddress">
+                            <h3>Email Address</h3>
+                            <div class="emailaddress-input">
+                                <input type="text" name="email">
+                                <label for="">example@example.com</label>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <h3>Contact Number</h3>
+                            <div class="contact-input">
+                                <input type="text" name="contact">
+                                <label for="">Please enter a valid phone number.</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-event-input">
+                        <h3>Event name:</h3>
+                        <input type="text" name="event">
+                    </div>
+                    <hr>
+                    <div class="form-submit">
+                        <button name="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="data.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
