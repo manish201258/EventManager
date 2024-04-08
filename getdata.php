@@ -1,8 +1,8 @@
 <?php
-$servername = "sql5.freesqldatabase.com";
-$username = "sql5696495";
-$password = "JTUKUP4JH5";
-$database = "sql5696495";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "eventreguser";
 $con = mysqli_connect($servername, $username, $password, $database);
 
 // Check connection
